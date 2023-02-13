@@ -1,1 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,700&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 2.42rem;
+  line-height: 2.75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Tenor Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
