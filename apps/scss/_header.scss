@@ -1,0 +1,40 @@
+header{
+    nav{
+        display: flex;
+        background-color: #E7EAEF;
+        padding-inline: 1.25rem;
+        border: 2px solid red;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
+
+        @include breakpoint-up(xlarge){
+            width: 1400px;
+            margin: 0 auto;
+        }
+
+        .hamburger-menu{
+            width: 40px;
+            height: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            span{
+                height: 3px;
+                // width: 100%;
+                background-color: #14142B;
+
+                :nth-child(1){
+                    width: 50%;
+                }
+            }
+        }
+
+    }
+}
