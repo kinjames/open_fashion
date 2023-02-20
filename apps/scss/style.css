@@ -64,4 +64,25 @@ header nav .hamburger-menu span {
   height: 2px;
   width: 100%;
   background-color: #14142B;
+}
+header nav .logo {
+  width: 78.08px;
+  height: 40px;
+}
+header nav .logo a img {
+  width: 100%;
+  height: 100%;
+}
+header nav .search-basket-icon {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  height: 40px;
+  color: red;
+}
+header nav .search-basket-icon i {
+  color: #14142B;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
