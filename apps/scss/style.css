@@ -116,4 +116,26 @@ header .hero-image {
 header .hero-image img {
   height: 100%;
   width: 100%;
+}
+header .hero-text-container {
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 1rem;
+  border-radius: 20px;
+}
+header .hero-para {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
