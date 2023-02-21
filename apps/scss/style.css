@@ -33,6 +33,14 @@ body {
   display: none;
 }
 
+.line {
+  margin: 0 auto;
+  width: 40%;
+}
+.line img {
+  width: 100%;
+}
+
 header nav {
   display: flex;
   background-color: #E7EAEF;
@@ -148,4 +156,5 @@ main .new-arrival-container .new-arrival-header {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
