@@ -138,4 +138,14 @@ header .hero-para {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
+}
+
+main .new-arrival-container {
+  background-color: #FCFCFC;
+  margin: 100px auto;
+}
+main .new-arrival-container .new-arrival-header {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }/*# sourceMappingURL=style.css.map */
