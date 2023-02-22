@@ -115,6 +115,7 @@ header .hamburger-menu-page .categories {
   display: flex;
   justify-content: space-between;
   letter-spacing: 3px;
+  margin-bottom: 0.5rem;
 }
 header .hero-section {
   width: 100%;
