@@ -111,6 +111,11 @@ header .hamburger-menu-page {
   background-color: #fff;
   padding: 1.25rem;
 }
+header .hamburger-menu-page .categories {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 3px;
+}
 header .hero-section {
   width: 100%;
   height: 70vh;

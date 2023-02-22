@@ -74,6 +74,13 @@ header{
         position: absolute;
         background-color: #fff;
         padding: 1.25rem;
+
+
+        .categories{
+            display: flex;
+            justify-content: space-between;
+            letter-spacing: 3px;
+        }
     }
 
     .hero-section{
